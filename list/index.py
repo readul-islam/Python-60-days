@@ -67,3 +67,25 @@ while i < len(lang):
 
 
 
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse=True)
+print(thislist)
+
+
+
+def myFx(n):
+    return abs(n-50)
+
+
+num_list= [100, 50, 65, 82, 23]
+
+
+num_list.sort(key = myFx)
+print(num_list)
+
+
+# list Copying
+my_list = num_list.copy()
+my_another_list = list(my_list)
+
+print(my_list, my_another_list)

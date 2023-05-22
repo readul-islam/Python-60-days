@@ -3,3 +3,4 @@
 txt= 'akash mahamud';
 
 print(txt.capitalize())
+
