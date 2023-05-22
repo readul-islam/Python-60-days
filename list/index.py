@@ -39,3 +39,31 @@ boys.pop()
 
 boys.clear()
 print(boys);
+
+
+
+# Loping on list items
+
+lang=['javascript', 'python', 'c++', 'c', 'dart'];
+
+
+for x in lang:
+    print(x);
+# You can also loop through the list items by referring to their index number.
+# Use the range() and len() functions to create a suitable iterable. 
+print(range(len(lang)))
+for i in range(len(lang)):
+    print(i)   
+    
+    
+# While loop
+# Remember to increase the index by 1 after each iteration.  
+
+i =0;
+while i < len(lang):
+    print(lang[i]);
+    i+=1
+
+
+
+
